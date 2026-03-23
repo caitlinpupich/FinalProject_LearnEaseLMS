@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-parchment: #f4f1ea;
+  --color-ink: #1a1a1a;
+  --color-hogwarts-green: #1b3022;
+  --color-dark-wood: #3d2b1f;
+  --color-gold-leaf: #d4af37; /* Ensure the ; is here */
+}
+
+body {
+  background-color: var(--color-parchment);
+  color: var(--color-ink);
+  font-family: 'Georgia', serif; /* Gives it that classic book feel */
+}
